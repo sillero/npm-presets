@@ -1,4 +1,4 @@
-# npm-presets [![Build Status](https://travis-ci.org/sillero/npm-presets.svg?branch=master)](https://travis-ci.org/sillero/npm-presets)
+# npm-presets [![Travis](https://img.shields.io/travis/sillero/npm-presets/master.svg?maxAge=2592000)](https://travis-ci.org/sillero/npm-presets) [![Coveralls branch](https://img.shields.io/coveralls/siller/npm-presets/master.svg?maxAge=2592000)](https://coveralls.io/github/sillero/npm-presets?branch=master) [![npm](https://img.shields.io/npm/v/npm-presets.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-presets) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 Installs groups of npm dependencies.
 
 ## Presets
