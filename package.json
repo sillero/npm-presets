@@ -19,7 +19,7 @@
   "preferGlobal": true,
   "bin": {
     "npm-preset-install": "cli/install",
-    "npm-preset-uninstall": "cli/install",
+    "npm-preset-uninstall": "cli/uninstall",
     "npm-preset-list": "cli/list"
   },
   "scripts": {
