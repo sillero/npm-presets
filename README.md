@@ -37,7 +37,7 @@ You can create presets on your `package.json` file and the cli will try to resol
 
 This will give you three commands to use
 
-### npm-preset-install [flags] <presets>
+### npm-preset-install [flags] &lt;presets&gt;
 It takes `npm install` default flags (optional) and space seprated list of presets (optional).  
 ```
 npm-preset-install react-redux-webpack
@@ -46,9 +46,9 @@ npm-preset-install --save react-redux-webpack
 
 npm-preset-install --save-dev react-redux-webpack
 ``` 
-### npm-preset-uninstall [flags] <presets>
+### npm-preset-uninstall [flags] &lt;presets&gt;
 It will uninstall all modules listed on the presets 
 
-### npm-preset-list [-R|--resolve] <presets>
+### npm-preset-list [-R|--resolve] &lt;presets&gt;
 It will list all modules to be installed on a preset or a collection of presets.  
 Use `-R` or `--resolve` to print the version to be resolved by npm after the install.
