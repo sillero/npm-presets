@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require('../src/list')(process.argv.slice(2))
+  .then(modules => console.log(modules.join('\n')));

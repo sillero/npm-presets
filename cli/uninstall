@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const params = require('../src/params')(process.argv.slice(2));
+const spawn = require('child_process').spawn;
+
+console.log(`npm uninstall ${params.flags.join(' ')} ${params.modules.join(' ')}`);
+
+if (process.env.NODE_ENV !== 'development') {
+  spawn(
+    'npm',
+    ['uninstall'].concat(params.flags).concat(params.modules),
+    { stdio: 'inherit' }
+  );
+}

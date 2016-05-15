@@ -1,0 +1,5 @@
+{
+  "presets": {
+    "pkg-preset": ["dep1", "dep2", "dep3"]
+  }
+}
