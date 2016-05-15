@@ -1,6 +1,6 @@
 {
   "name": "npm-presets",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Installs groups of npm dependencies",
   "keywords": [
     "preset",
