@@ -1,7 +1,14 @@
 {
   "name": "npm-presets",
   "version": "0.1.1",
-  "description": "",
+  "description": "Installs groups of npm dependencies",
+  "keywords": [
+    "preset",
+    "bundle",
+    "npm",
+    "dependency",
+    "cli"
+  ],
   "bin": {
     "npm-preset-install": "cli/install",
     "npm-preset-uninstall": "cli/install",
@@ -15,7 +22,6 @@
     "type": "git",
     "url": "git@github.com-sillero:sillero/npm-presets.git"
   },
-  "keywords": [],
   "author": "Gustavo Sillero <gustavo@sille.ro>",
   "license": "MIT",
   "dependencies": {

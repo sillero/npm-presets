@@ -23,7 +23,7 @@ You can create presets on your `package.json` file and the command line will try
   'webpack-dev-server'
 ]
 ```
-### Example nested preset (babel-eslit-airbnb)
+### Example nested preset (babel-eslint-airbnb)
 ```javascript
 [
   'preset:babel',
