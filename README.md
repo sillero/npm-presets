@@ -2,7 +2,7 @@
 Installs groups of npm dependencies.
 
 ## Presets
-Common presets can be found on the folder [presets/]()  
+Common presets can be found on the folder [presets/]().  
 You can create presets on your `package.json` file and the command line will try to resolve from there before searching for default presets.
 
 ### Example shallow preset (react-redux-webpack)
@@ -39,6 +39,7 @@ This will give you three commands to use
 
 ### npm-preset-install [flags] &lt;presets&gt;
 It takes `npm install` default flags (optional) and space seprated list of presets (optional).  
+This command will resolve all the presets and run an `npm install` with the resolved modules and the provided flags.
 ```
 npm-preset-install react-redux-webpack
 

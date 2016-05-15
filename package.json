@@ -10,6 +10,7 @@
   "scripts": {
     "test": "NODE_ENV=test mocha tests/*-test.js"
   },
+  "url": "https://github.com/sillero/npm-presets",
   "repository": {
     "type": "git",
     "url": "git@github.com-sillero:sillero/npm-presets.git"
