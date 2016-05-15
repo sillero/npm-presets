@@ -2,7 +2,7 @@
 Installs groups of npm dependencies.
 
 ## Presets
-Common presets can be found on the folder [presets/]()
+Common presets can be found on the folder [presets/]()  
 You can create presets on your `package.json` file and the cli will try to resolve from there before searching for default presets.
 
 ### Example shallow preset (react-redux-webpack)
