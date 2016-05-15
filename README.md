@@ -4,7 +4,8 @@ Installs groups of npm dependencies.
 ## Presets
 Common presets can be found on the folder [presets/]()
 You can create presets on your `package.json` file and the cli will try to resolve from there before searching for default presets.
-### Example preset (react-redux-webpack)
+
+### Example shallow preset (react-redux-webpack)
 ```javascript
 [
   'react',
@@ -14,9 +15,20 @@ You can create presets on your `package.json` file and the cli will try to resol
   'react-router',
   'react-router-redux',
   'redux',
+  'redux-devtools',
+  'redux-devtools-dock-monitor',
+  'redux-devtools-log-monitor',
   'redux-saga',
   'webpack',
   'webpack-dev-server'
+]
+```
+### Example nested preset (babel-eslit-airbnb)
+```javascript
+[
+  'preset:babel',
+  'preset:eslint-airbnb',
+  'babel-eslint'
 ]
 ```
 
