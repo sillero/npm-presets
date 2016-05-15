@@ -1,4 +1,4 @@
-# npm-presets
+# npm-presets [![Build Status](https://travis-ci.org/sillero/npm-presets.svg?branch=master)](https://travis-ci.org/sillero/npm-presets)
 Installs groups of npm dependencies.
 
 ## Presets
