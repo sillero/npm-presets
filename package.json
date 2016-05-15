@@ -9,6 +9,14 @@
     "dependency",
     "cli"
   ],
+  "author": "Gustavo Sillero <gustavo@sille.ro>",
+  "license": "MIT",
+  "url": "https://github.com/sillero/npm-presets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-sillero:sillero/npm-presets.git"
+  },
+  "preferGlobal": true,
   "bin": {
     "npm-preset-install": "cli/install",
     "npm-preset-uninstall": "cli/install",
@@ -17,13 +25,6 @@
   "scripts": {
     "test": "NODE_ENV=test mocha tests/*-test.js"
   },
-  "url": "https://github.com/sillero/npm-presets",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com-sillero:sillero/npm-presets.git"
-  },
-  "author": "Gustavo Sillero <gustavo@sille.ro>",
-  "license": "MIT",
   "dependencies": {
     "registry-resolve": "^0.1.3"
   },
