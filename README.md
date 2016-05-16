@@ -3,7 +3,7 @@ Installs groups of npm dependencies.
  
 [![Travis](https://img.shields.io/travis/sillero/npm-presets/master.svg?maxAge=2592000)](https://travis-ci.org/sillero/npm-presets) [![Coveralls branch](https://img.shields.io/coveralls/sillero/npm-presets/master.svg?maxAge=2592000)](https://coveralls.io/github/sillero/npm-presets?branch=master) [![npm](https://img.shields.io/npm/v/npm-presets.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-presets) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/sillero/npm-presets)
 ## Presets
-Common presets can be found on the folder [presets/]().  
+Common presets can be found on the folder [presets/](https://github.com/sillero/npm-presets/tree/master/presets).  
 You can create presets on your `package.json` file and the command line will try to resolve from there before searching for default presets.
 
 ### Example shallow preset (react-redux-webpack)
